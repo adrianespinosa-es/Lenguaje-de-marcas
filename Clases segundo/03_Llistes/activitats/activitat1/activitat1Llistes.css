@@ -1,0 +1,47 @@
+/* Font general per a tota la pàgina */
+body {
+    font-family: Arial, sans-serif;
+    color: #2c3e50;
+}
+
+/* Contenidor opcional per simular la millor estructura visual */
+.container {
+    max-width: 600px;
+    padding: 10px;
+}
+
+/* Títol principal amb línia a baix */
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+}
+
+/* Subtítols */
+h2 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* Estils generals per a les llistes */
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Primera llista amb l'estil d'imatge personalitzat */
+ul.llista-programacio {
+    list-style-image: url('icona_llenguatges.png');
+}
+
+/* Segona llista amb l'estil d'imatge personalitzat */
+ul.llista-ai {
+    list-style-image: url('ai.png');
+}
