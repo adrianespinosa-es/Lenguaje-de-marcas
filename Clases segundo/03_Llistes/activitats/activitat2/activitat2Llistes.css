@@ -1,0 +1,66 @@
+/* Font general per a tota la pàgina */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333333;
+    padding: 20px;
+}
+
+/* Contenidor principal exterior */
+.main-container {
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Títol principal amb línia inferior */
+.main-title {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 24px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2c3e50;
+}
+
+/* Agrupació de cada secció */
+section {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Separació entre dos section consecutius */
+section + section {
+    margin-top: 25px;
+}
+
+/* Títol de cada secció */
+section h2 {
+    color: #2c3e50;
+    font-size: 18px;
+    margin-top: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Estils de les llistes */
+ol {
+    padding-left: 30px;
+}
+
+ol li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/* Element de la llista sense numeració (...) */
+li.no-number {
+    list-style-type: none;
+    margin-left: -15px;
+}
