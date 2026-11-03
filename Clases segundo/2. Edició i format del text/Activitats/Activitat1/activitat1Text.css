@@ -1,0 +1,98 @@
+/* Estilos generales del cuerpo */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* Caja gris principal */
+.contenedor {
+    background-color: #cccccc;
+    width: 600px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Título superior (fondo negro, texto blanco) */
+h1 {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 15px 0;
+    padding: 8px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Subtítulos en la caja gris con tipografía serif/typewriter */
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+}
+
+/* Líneas divisorias horizontales debajo de los títulos */
+.linea {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Contenedor para alinear las filas */
+.filas-contenedor {
+    padding-left: 30px;
+}
+
+/* Distribución de cada fila */
+.fila {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Etiquetas del lado izquierdo */
+.etiqueta {
+    width: 180px; /* Ancho fijo para alineación vertical idéntica */
+    font-size: 14px;
+}
+
+/* Colores y estilos específicos de texto */
+.blau {
+    color: #0000ff;
+    font-weight: bold;
+}
+
+.vermell {
+    color: #ff0000;
+}
+
+.negreta {
+    font-weight: bold;
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+/* Estilos de las cajas de resultados */
+.resultado {
+    padding: 2px 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.fondo-negro {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.fondo-amarillo {
+    background-color: #ffff00;
+    color: #000000;
+    border: 1px solid #888888;
+}

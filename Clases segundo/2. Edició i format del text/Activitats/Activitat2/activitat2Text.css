@@ -1,0 +1,59 @@
+/* Estilos generales del cuerpo */
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* Contenedor principal de color oscuro */
+.contenedor-principal {
+    background-color: #222222;
+    width: 650px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+/* Título de la actividad */
+h1 {
+    color: #ff3333;
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ff3333;
+}
+
+/* Estilo base para las cajas grises de texto */
+.caja {
+    background-color: #555555;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.caja p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #f0f0f0;
+}
+
+/* Estilo 1: Caja con borde rojo grueso solo en la izquierda */
+.caja-borde-rojo {
+    border-left: 5px solid #ff3333;
+}
+
+/* Estilo 2: Caja con borde fino gris claro alrededor */
+.caja-borde-gris {
+    border: 1px solid #aaaaaa;
+}
+
+/* Clase reutilizable para el texto resaltado (fondo rojo oscuro y texto rojo claro) */
+.destacat {
+    background-color: #500000;
+    color: #ff4d4d;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
